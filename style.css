@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.contairner{
+    display: flex;
+    background-color: hsl(47, 88%, 63%);
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.contairner__conteudo{
+    background-color: white;
+    width: 16vw;
+    height: 48vh;
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    box-shadow:  black 7PX 7PX;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 10px;
+}
+
+.contairner__conteudo__img{
+    border-radius: 12px;
+    size: 100%;
+}
+
+.contairner__conteudo__div{
+    background-color: yellow;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.contairner__conteudo__pub{
+    font-size: 12px;
+}
+
+.contairner__conteudo__found{
+    font-weight: 800;
+}
+
+.contairner__conteudo__paragraph{
+    color: hsl(0, 0%, 42%);
+    font-size: 10px;
+}
+
+.contairner__conteudo__greg{
+    font-size: 10px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.contairner__conteudo__img2{
+    width: 25px;
+}
