@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    display: flex;
+    background-color: #F4CF4D;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 500px;
+    border-radius: 17px;
+    padding: 15px;
+    border: solid 1px black;
+    box-shadow: 10px 10px black;
+    margin: 20px;
+    
+}
+
+.flex-item {
+    display: flex;
+    width: 100%; 
+    
+}
+
+.hero-image {
+    width: 99.5%;
+    border-radius: 15px;
+}
+
+.title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #F4CF4D;
+    margin: 15px 0;
+}
+
+.date {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    margin: 10px 0px;
+}
+
+.category{
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    margin: 0px 0px;
+}
+
+.description {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:  hsl(0, 0%, 42%);
+    margin: 10px 0px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 0 4%;
+    
+}
+
+.author {
+    display: flex;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    color: #000000;
+    align-items: center;
+    margin: 45px 0 0 0;
+}
+
+.author-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
