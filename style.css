@@ -4,8 +4,10 @@ body {
     display: flex;
     background-color: #F4CF4D;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 5vh;
 }
 
 .container {
@@ -18,7 +20,7 @@ body {
     padding: 15px;
     border: solid 1px black;
     box-shadow: 10px 10px black;
-    margin: 20px;
+    margin: 50px;
     
 }
 
